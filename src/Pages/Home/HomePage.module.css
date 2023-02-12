@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Inter:wght@400;500;700&family=Lato:wght@700&family=Lusitana&family=Merriweather:ital@1&family=Montserrat:wght@700&family=Noto+Sans&family=Noto+Sans+NKo&family=Raleway&family=Roboto:wght@300&display=swap" rel="stylesheet');
+
+/* body {
+    background: url(../../assets/hand1.svg) right top no-repeat;
+*/
+.main_block {
+  margin-top: 6%;
+  margin-left: 12%;
+}
+.h4 {
+   font-family: 'Inter', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 60px;
+}
+
+.textP2 {
+   font-family: 'Inter', sans-serif;
+   font-size: 30px;
+}
+.textP {
+   display: none;
+}
+
+
+.span_web {
+   display: block;
+}
+
+.imgLine {
+   z-index: -10;
+}
+/* 
+.imgFlower {
+   z-index: -10;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} */
+
+/* .img_back {
+   display: flex;
+} */
+
+.box_call {
+   margin-top: 5%;
+   background: #761919;
+   border: 1px solid #000000;
+   border-radius: 20px;
+   padding: 10px 20px;
+   width: 200px;
+   height: 50px;
+}
+
+.href_call {
+   font-family: 'Inter', sans-serif;
+   color: #FFFFFF;
+   padding-top: 20px;
+   font-size: 25px;
+}
+
+.img_call {
+   padding-left: 13px;
+}
+
+.imgHoney_phone {
+   display: none;
+}
+
+/* .imgHand {
+   z-index: -20;
+   top: 0;
+} */
+
+.box_call_phone {
+   display: none;
+}
+.h2 {
+   display: none;
+}
+
+@media (max-width: 800px) {
+   .main_block {
+      display: flex;
+      margin-top: 0%;
+     margin-left: 0%;
+   }
+   /* .imgFlower {
+      display: none;
+   } */
+
+   /* .imgLine {
+      display: none;
+   } */
+   .h4 {
+      display: none;
+   }
+   .h2 {
+      font-size: 20px;
+      display: block;
+   }
+
+   .imgHoney_phone {
+      display: block;
+      padding-top: 41px;
+   }
+
+   .textP {
+      display: block;
+      font-size: 16px;
+      font-family: 'Inter', sans-serif;
+   }
+   .textP2 {
+     display: none;
+   }
+
+   .phone_div {
+      padding-top: 70px;
+      font-family: 'Inter', sans-serif;
+      padding-left: 20px;
+   }
+
+   .box_call_phone {
+      margin-top: 33px;
+      display: block;
+      width: 150px;
+      height: 35px;
+      background: #761919;
+      border: 0.593244px solid #000000;
+      border-radius: 11.8649px;
+   }
+
+   .href_call_phone {
+      color: #FFFFFF;
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+
+   .img_call_phone {
+      padding-top: 5px;
+   }
+
+   .box_call {
+      display: none;
+   }
+}
