@@ -111,7 +111,7 @@ const Header = () => {
         <Route exact path="/">
           <HomePage />
         </Route>
-        <Route exact path="/products">
+        <Route  path="/products">
           <Products />
         </Route>
         <Route path="/useful-articles">
