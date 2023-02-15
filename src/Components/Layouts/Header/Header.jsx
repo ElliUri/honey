@@ -111,7 +111,7 @@ const Header = () => {
         <Route exact path="/">
           <HomePage />
         </Route>
-        <Route  path="/products">
+        <Route path="/products">
           <Products />
         </Route>
         <Route path="/useful-articles">
@@ -127,7 +127,7 @@ const Header = () => {
           <ShoppingCartPage />
         </Route>
       </Switch>
-    </Router>
+   </Router>
   )
 }
 

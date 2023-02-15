@@ -20,7 +20,8 @@ const OurHistoryPage = () => {
                     <p className={s.text_our_history}>Наша история</p>
                     <div className={s.div_flex}>
                         <div>
-                        <img src={imgOurHistory} alt="beekeeper image" className={s.imgOurHistory} /></div>
+                        <img src={imgOurHistory} alt="beekeeper image" className={s.imgOurHistory} />
+                        </div>
                         <div className={s.text_block}>
                         <h3 className={s.eco_text_web}> Высококачественный <span className={s.span_web}>экологический мед в</span>  Кыргызстане. </h3>
                             <h3 className={s.eco_text}> Высококачественный экологический мед в Кыргызстане. </h3>
@@ -32,9 +33,7 @@ const OurHistoryPage = () => {
                                 Наша компания была 
                                 <span className={s.span_phone}>  основана в 1996 году, </span> 
                                 <span className={s.span_phone}>хозяйство было начато </span> с 16 семьями пчёл среднерусской породы.
-</p>
- 
-                           
+</p>           
                         </div>
                     </div> 
                     <p className={s.phone_p2}> В 2000 году перешли на карпатскую <span className={s.span_phone}>породу пчёл, количество семей около 15.</span>
