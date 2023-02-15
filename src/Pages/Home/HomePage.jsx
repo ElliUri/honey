@@ -3,7 +3,7 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
+    Link 
 } from "react-router-dom";
 import imgHand from '../../assets/image18.svg';
 import imgWhatsApp from '../../assets/Subtract.svg';
@@ -15,7 +15,6 @@ import img13 from '../../assets/image13.1.svg';
 import imgPic1 from '../../assets/pic1.svg';
 import imgPic2 from '../../assets/pic2.svg';
 import imgPic1Phone from '../../assets/pic1.1.svg';
-import imgPic2Phone from '../../assets/pic1.2.svg';
 import img11 from '../../assets/image11.1.svg';
 import s from './HomePage.module.css';
 import OurHistoryPage from '../OurHistory/OurHistoryPage.jsx';
@@ -47,7 +46,7 @@ const HomePage = () => {
                 <img src={img13} alt="image of flower"  className={s.img13}/>
                 <img src={imgHoney} alt="image of honey" className={s.imgHoney_phone} />
             </section>
-            {/* third block after catalog  */}         
+            {/* third block after catalog  */ }         
                 <section className={s.section_our_history}>
                     <p className={s.text_our_history}>Наша история</p>
                     <div className={s.div_flex}>
@@ -61,7 +60,7 @@ const HomePage = () => {
                             <p className={s.phone_p}>Наша компания была <span className={s.span_phone}> основана в 1996 году, </span>хозяйство...</p>
                              <Router>
                             <Link to="/our-history">
-                                <div className={s.box_more}> <p className={s.text_more}>Подробнее</p>
+                                <div className={s.box_more}> <p className={s.text_more}>Подробнее </p>
                                 </div>
                             </Link>
                             <Switch>
